@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>bIRThdAY wIsh....</title>
+        <link rel="stylesheet" href="css/style.css"/>
+		<link href="img/logo.jpg" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/mirror.css" />
+		<script>document.documentElement.className = 'js';</script>	
+        </head>
+        
+<body>
+
+<!--<hr color="brown" size="12">-->
+<font color="#cd7cc8" size="24" face="momo type corsiva">
+<marquee class="topto" scroll amount="40" behavior="scroll" direction="left">
+<b>h'Y b'Th dAY</b></marquee>
+</font>
+<!--<hr color="brown" size="12">-->
+<center>			
+
+<br><br>
+<font color="#f266a8" size="4">
+<b>MaY your birTh & every daY be fIlled with the warmTh Of Sunshine</b> 
+<br>
+<font color="#f266a8" size="4">
+<b>You deserved all the Cakes, Love, & Happiness today.</b>
+<b>Th3 happiness of Smiles, The SounD Of Laughter.</b>
+<br>
+<b>May ALLAH shower you with blessing today & always.</b> 
+</font>
+<br>
+<font color="#f266a8" size="4">
+<b>So() mAny Candless for such a small Cake</b> <br><br>
+<br>
+<b>            *,,,,,*,,,,,*
+<br>
+              "o,,,,”o,,,,”o
+<br>
+              _||___||___||_
+<br> 
+        *,{,,,,,,,,,,,,,,,,,,,},*
+<br>
+        o,{/\/\/\/\/\/\/\/\/\/},o
+<br>
+         _||_{_________”___}_||_
+<br>
+    {/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/}
+<br>
+    {,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,}
+<br>
+    {/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/}
+<br>
+        {_____________”_______} </b>
+</font>
+<br>
+        
+<main>
+<section class="content content--full">
+                            
+<div class="slideshow">
+<div class="slide">
+<div class="mirror" data-visible-area="0.85">
+<div class="mirror__side mirror__side--one">
+<img class="mirror__img" src="12.jpg" alt="Some image" />
+</div>
+<div class="mirror__side mirror__side--two">
+<img class="mirror__img" src="12.jpg" alt="Some image" />
+</div>
+</div>
+<h2 class="slide__title"></h2>
+</div>
+                    
+<nav class="slideshow__nav"></nav>
+                    
+
+
+</div>
+                    
+</div><!-- /slideshow -->
+				
+</section>
+            
+<audio controls class="mp3">
+<source src="Erum.mp3" type="audio/ogg">
+<source src="Erum.mp3" type="audio/mpeg">
+</audio>
+
+</main>
+<script src="imagesloaded.pkgd.min.js"></script>
+<script src="anime.min.js"></script>
+<script src="mirrorFx.js"></script>
+<script src="slideshow.js"></script>
+<script>
+		(function() {
+
+			function init() {
+				new Slideshow(document.querySelector('.slideshow'));
+			}
+			
+			// Fake loading time..
+			var startTime = new Date().getTime();
+			imagesLoaded(document.querySelector('main'), function() {
+				var elapsed = new Date().getTime() - startTime,
+					initFn = function() {
+						document.body.classList.remove('loading');
+						setTimeout(init, 50);
+					};
+
+				if( elapsed > 2000) {
+					initFn();
+				}
+				else {
+					setTimeout(initFn, 1000);
+				}
+			});
+
+		})();
+</script>
+
+</body>
+</html>
